@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Checkpoint 5 - WebDevelopment",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body>{children}</body>
