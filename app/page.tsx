@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image from "next/Image";
 
 export default function Home() {
   return (
     <div>
-      <p>teste</p>
+      <p>teste-checkpoint</p>
     </div>
   );
 }
