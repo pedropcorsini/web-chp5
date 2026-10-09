@@ -10,7 +10,7 @@ import ErrorState from "@/components/ErrorState";
 export default function Details() {
     const [agente, setAgente] = useState(null);
     const [carregando, setCarregando] = useState(true);
-    const [erro, setErro] = useState("");
+    const [erro, setErro] = useState(""); 
 
     useEffect(() => {
         axios
@@ -18,7 +18,7 @@ export default function Details() {
             .then((res) => setAgente(res.data.data))
             .catch((err) => setErro(err.message))
             .finally(() => setCarregando(false));
-    }, [id]);
+    }, []);
 
     if (carregando) return <Loader />;
     if (erro) return <ErrorState mensagem={erro} />;
