@@ -8,8 +8,6 @@ import Loader from "@/components/Loader";
 import ErrorState from "@/components/ErrorState";
 
 export default function Details() {
-    const { id } = useParams();
-
     const [agente, setAgente] = useState(null);
     const [carregando, setCarregando] = useState(true);
     const [erro, setErro] = useState("");
