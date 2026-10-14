@@ -1,0 +1,157 @@
+{
+  "turma": "1ESPU",
+  "project": "pedropcorsini-web-chp5",
+  "hasGit": true,
+  "nextRoots": [
+    {
+      "pkgPath": "package.json",
+      "dir": "/Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPU/pedropcorsini-web-chp5",
+      "next": "16.4.0",
+      "axios": "^1.20.0",
+      "react": "19.3.0",
+      "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint"
+      }
+    }
+  ],
+  "components": [
+    {
+      "name": "ErrorState",
+      "file": "components/ErrorState.js",
+      "inComponents": true
+    },
+    {
+      "name": "Header",
+      "file": "components/Header.js",
+      "inComponents": true
+    },
+    {
+      "name": "List",
+      "file": "components/List.js",
+      "inComponents": true
+    },
+    {
+      "name": "ListItem",
+      "file": "components/ListItem.js",
+      "inComponents": true
+    },
+    {
+      "name": "Loader",
+      "file": "components/Loader.js",
+      "inComponents": true
+    }
+  ],
+  "componentCount": 5,
+  "componentsInComponentsFolder": 5,
+  "axiosHits": [
+    "app/details/[id]/page.js:6: import axios from \"axios\";",
+    "app/details/[id]/page.js:16: axios",
+    "app/page.js:4: import axios from \"axios\";",
+    "app/page.js:26: axios",
+    "package-lock.json:11: \"axios\": \"^1.20.0\",",
+    "package-lock.json:2684: \"node_modules/axios\": {",
+    "package-lock.json:2686: \"resolved\": \"https://registry.npmjs.org/axios/-/axios-1.20.0.tgz\",",
+    "package.json:12: \"axios\": \"^1.20.0\","
+  ],
+  "fetchHits": [],
+  "useStateHits": [
+    "app/details/[id]/page.js:3: import { useState, useEffect } from \"react\";",
+    "app/details/[id]/page.js:11: const [agente, setAgente] = useState(null);",
+    "app/details/[id]/page.js:12: const [carregando, setCarregando] = useState(true);",
+    "app/details/[id]/page.js:13: const [erro, setErro] = useState(\"\");",
+    "app/page.js:3: import { useState, useEffect, useMemo } from \"react\";",
+    "app/page.js:13: const [agentes, setAgentes] = useState([]);",
+    "app/page.js:14: const [carregando, setCarregando] = useState(true);",
+    "app/page.js:15: const [erro, setErro] = useState(\"\");",
+    "app/page.js:17: const [busca, setBusca] = useState(\"\");"
+  ],
+  "useEffectHits": [
+    "app/details/[id]/page.js:3: import { useState, useEffect } from \"react\";",
+    "app/details/[id]/page.js:15: useEffect(() => {",
+    "app/page.js:3: import { useState, useEffect, useMemo } from \"react\";",
+    "app/page.js:19: useEffect(() => {"
+  ],
+  "useRouterHits": [],
+  "linkHits": [
+    "app/details/[id]/page.js:5: import Link from \"next/link\";",
+    "app/details/[id]/page.js:28: <Link href=\"/\">Voltar para a lista</Link>",
+    "components/Header.js:1: import Link from \"next/link\"",
+    "components/Header.js:6: <Link href=\"/\">",
+    "components/ListItem.js:1: import Link from \"next/link\";",
+    "components/ListItem.js:6: <Link href={`/details/${agente.uuid}`}>"
+  ],
+  "useClientHits": [
+    "app/details/[id]/page.js:1: \"use client\";",
+    "app/page.js:1: \"use client\";"
+  ],
+  "useMemoHits": [
+    "app/page.js:3: import { useState, useEffect, useMemo } from \"react\";",
+    "app/page.js:36: const agentesFiltrados = useMemo(() => {"
+  ],
+  "useCallbackHits": [],
+  "useRefHits": [],
+  "localStorageHits": [
+    "app/page.js:20: const salvo = localStorage.getItem(\"agentes\");",
+    "app/page.js:30: localStorage.setItem(\"agentes\", JSON.stringify(res.data.data));"
+  ],
+  "loadingHints": [
+    "app/details/[id]/page.js:12: const [carregando, setCarregando] = useState(true);",
+    "app/details/[id]/page.js:23: if (carregando) return <Loader />;",
+    "app/page.js:14: const [carregando, setCarregando] = useState(true);",
+    "app/page.js:42: if (carregando) return <Loader />;",
+    "components/Loader.js:2: return <p>Carregando...</p>;"
+  ],
+  "errorHints": [
+    "app/details/[id]/page.js:13: const [erro, setErro] = useState(\"\");",
+    "app/details/[id]/page.js:24: if (erro) return <ErrorState mensagem={erro} />;",
+    "app/page.js:15: const [erro, setErro] = useState(\"\");",
+    "app/page.js:44: if (erro && agentes.length === 0) return <ErrorState mensagem={erro} />;",
+    "components/ErrorState.js:4: <strong>Erro ao carregar os dados</strong>",
+    "package-lock.json:3670: \"zod-validation-error\": \"^3.5.0 || ^4.0.0\""
+  ],
+  "searchHints": [
+    "app/page.js:17: const [busca, setBusca] = useState(\"\");",
+    "app/page.js:37: return agentes.filter((agente) =>",
+    "app/page.js:38: agente.displayName.toLowerCase().includes(busca.toLowerCase())",
+    "app/page.js:40: }, [agentes, busca]);",
+    "package-lock.json:2465: \"node_modules/aria-query\": {",
+    "package-lock.json:2467: \"resolved\": \"https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz\",",
+    "package-lock.json:2696: \"node_modules/axobject-query\": {",
+    "package-lock.json:2698: \"resolved\": \"https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz\",",
+    "package-lock.json:3603: \"aria-query\": \"^5.3.2\",",
+    "package-lock.json:3608: \"axobject-query\": \"^4.1.0\","
+  ],
+  "dynamicRoutes": [
+    "app/details/[id]/page.js"
+  ],
+  "honeypots": [],
+  "reduxVueClass": [],
+  "readmes": [
+    {
+      "path": "README.md",
+      "preview": "Link vercel = https://web-chp5-eiyl.vercel.app/"
+    }
+  ],
+  "participantes": [
+    {
+      "path": "participantes.md",
+      "preview": "Pedro Passos Corsini - RM573493\nDaniel Gomes Torres - RM573436\nHenrique Lira - RM571009\nPedro Thyago de Araújo Santos - RM570939"
+    }
+  ],
+  "vercelLinks": [
+    "https://web-chp5-eiyl.vercel.app/"
+  ],
+  "apiHints": [
+    "Valorant"
+  ],
+  "git": {
+    "commitCount": 18,
+    "branch": "main",
+    "remote": "origin\thttps://github.com/pedropcorsini/web-chp5 (fetch)\norigin\thttps://github.com/pedropcorsini/web-chp5 (push)",
+    "shortlog": "18\tLaboratório FIAP <labsfiap@fiap.com.br>",
+    "logOneline": "c3bde44 feat: adiciona link do vercel no readme\n4c9b24f fix: erro de identacao\n5de0249 fix: erro de hooks\n667c411 feat: adiciona details/id/page e ajusta page principal\n472c4b8 feat: adiciona componente list.\nc453b99 feat: add compomente listitem\n2ad0ea5 Merge branch 'main' of https://github.com/pedropcorsini/web-chp5\n2bf4df5 feat: adiciona header ao layout.js\n4c7f2d7 Merge branch 'main' of https://github.com/pedropcorsini/web-chp5\nde4c77b  feat: adicionando o componente Loader\naddc003 feat: adiciona caminho details/id/\na1d7788 Merge branch 'main' of https://github.com/pedropcorsini/web-chp5\n5a9c020 feat: adiciona componente errorstate\nfca14b6  feat: adicionando o componente Header\nc578a5e limpando pastas que nao serao utilizadas\n5e7b257 feat: adiciona participantes.md\neabae8e feat: cria e starta app\n8422c93 first commit"
+  }
+}

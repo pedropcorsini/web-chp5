@@ -1,0 +1,63 @@
+# CONTEXTO GIT - 1ESPU/pedropcorsini-web-chp5
+# Path: /Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPU/pedropcorsini-web-chp5
+
+## git remote -v
+origin	https://github.com/pedropcorsini/web-chp5 (fetch)
+origin	https://github.com/pedropcorsini/web-chp5 (push)
+
+## git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+## git log --oneline -50 (default branch)
+c3bde44 feat: adiciona link do vercel no readme
+4c9b24f fix: erro de identacao
+5de0249 fix: erro de hooks
+667c411 feat: adiciona details/id/page e ajusta page principal
+472c4b8 feat: adiciona componente list.
+c453b99 feat: add compomente listitem
+2ad0ea5 Merge branch 'main' of https://github.com/pedropcorsini/web-chp5
+2bf4df5 feat: adiciona header ao layout.js
+4c7f2d7 Merge branch 'main' of https://github.com/pedropcorsini/web-chp5
+de4c77b  feat: adicionando o componente Loader
+addc003 feat: adiciona caminho details/id/
+a1d7788 Merge branch 'main' of https://github.com/pedropcorsini/web-chp5
+5a9c020 feat: adiciona componente errorstate
+fca14b6  feat: adicionando o componente Header
+c578a5e limpando pastas que nao serao utilizadas
+5e7b257 feat: adiciona participantes.md
+eabae8e feat: cria e starta app
+8422c93 first commit
+
+## git shortlog -sn -e (HEAD)
+18	Laboratório FIAP <labsfiap@fiap.com.br>
+
+## git log --oneline --graph --all -20
+* c3bde44 feat: adiciona link do vercel no readme
+* 4c9b24f fix: erro de identacao
+* 5de0249 fix: erro de hooks
+* 667c411 feat: adiciona details/id/page e ajusta page principal
+* 472c4b8 feat: adiciona componente list.
+* c453b99 feat: add compomente listitem
+*   2ad0ea5 Merge branch 'main' of https://github.com/pedropcorsini/web-chp5
+|\  
+| *   4c7f2d7 Merge branch 'main' of https://github.com/pedropcorsini/web-chp5
+| |\  
+| * | de4c77b  feat: adicionando o componente Loader
+* | | 2bf4df5 feat: adiciona header ao layout.js
+| |/  
+|/|   
+* | addc003 feat: adiciona caminho details/id/
+* | a1d7788 Merge branch 'main' of https://github.com/pedropcorsini/web-chp5
+|\| 
+| * fca14b6  feat: adicionando o componente Header
+* | 5a9c020 feat: adiciona componente errorstate
+|/  
+* c578a5e limpando pastas que nao serao utilizadas
+* 5e7b257 feat: adiciona participantes.md
+* eabae8e feat: cria e starta app
+* 8422c93 first commit
+
+## contagem de commits HEAD
+18

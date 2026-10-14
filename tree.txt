@@ -1,0 +1,22 @@
+.gitignore (480b)
+app/
+app/details/
+app/details/[id]/
+app/details/[id]/page.js (1523b)
+app/globals.css (23b)
+app/layout.js (358b)
+app/page.js (1338b)
+components/
+components/ErrorState.js (187b)
+components/Header.js (182b)
+components/List.js (334b)
+components/ListItem.js (371b)
+components/Loader.js (67b)
+eslint.config.mjs (465b)
+gitcontext.txt (2315b)
+next.config.ts (366b)
+package-lock.json (240114b)
+package.json (556b)
+participantes.md (129b)
+README.md (47b)
+tsconfig.json (698b)
